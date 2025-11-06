@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Universidad brand colors - academic blue palette */
+    --background: 220 20% 97%;
+    --foreground: 220 40% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 15%;
+
+    /* Primary - Academic blue */
+    --primary: 217 91% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 217 91% 45%;
+    --primary-dark: 217 91% 25%;
+
+    /* Secondary - Soft gray */
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 40% 15%;
+
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 20% 50%;
+
+    /* Accent - Complementary teal */
+    --accent: 180 65% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Status colors */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 88%;
+    --input: 220 20% 88%;
+    --ring: 217 91% 35%;
+
+    --radius: 0.75rem;
+
+    /* Sidebar - deep academic blue */
+    --sidebar-background: 220 45% 12%;
+    --sidebar-foreground: 220 15% 85%;
+    --sidebar-primary: 217 91% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 40% 18%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 220 40% 20%;
+    --sidebar-ring: 217 91% 45%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 35%), hsl(217 91% 45%));
+    --gradient-accent: linear-gradient(135deg, hsl(180 65% 45%), hsl(180 65% 55%));
+    
+    /* Shadows */
+    --shadow-soft: 0 2px 8px -2px hsl(220 40% 15% / 0.08);
+    --shadow-medium: 0 4px 16px -4px hsl(220 40% 15% / 0.12);
+    --shadow-strong: 0 8px 24px -8px hsl(220 40% 15% / 0.16);
+  }
+
+  .dark {
+    --background: 220 40% 8%;
+    --foreground: 220 15% 92%;
+
+    --card: 220 35% 12%;
+    --card-foreground: 220 15% 92%;
+
+    --popover: 220 35% 12%;
+    --popover-foreground: 220 15% 92%;
+
+    --primary: 217 91% 55%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 217 91% 65%;
+    --primary-dark: 217 91% 45%;
+
+    --secondary: 220 30% 18%;
+    --secondary-foreground: 220 15% 92%;
+
+    --muted: 220 30% 15%;
+    --muted-foreground: 220 15% 65%;
+
+    --accent: 180 65% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --success: 142 76% 40%;
+    --success-foreground: 0 0% 100%;
+    
+    --warning: 38 92% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 30% 20%;
+    --input: 220 30% 20%;
+    --ring: 217 91% 55%;
+
+    --sidebar-background: 220 45% 10%;
+    --sidebar-foreground: 220 15% 85%;
+    --sidebar-primary: 217 91% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 35% 16%;
+    --sidebar-accent-foreground: 220 15% 95%;
+    --sidebar-border: 220 35% 18%;
+    --sidebar-ring: 217 91% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
