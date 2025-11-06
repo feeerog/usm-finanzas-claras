@@ -75,14 +75,14 @@ export default function Perfil() {
     const savedProfile = localStorage.getItem("studentProfile");
     const defaultInfo = {
       name: "María José González Pérez",
-      rut: "12.345.678-9",
+      rut: "20.420.676-0",
       email: "maria.gonzalez@sansano.usm.cl",
       phone: "+56 9 8765 4321",
-      address: "Valparaíso, Chile",
+      address: "Rancagua, Chile",
       career: "Ingeniería Civil Informática",
       enrollment: "202001234",
       admissionYear: "2020",
-      currentSemester: "9",
+      currentSemester: "12",
       status: "Regular",
     };
 

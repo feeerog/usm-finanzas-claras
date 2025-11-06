@@ -18,6 +18,15 @@ export default function Pagos() {
   const payments = [
     {
       id: 1,
+      concept: "Beca ayudantia",
+      amount: 92000,
+      date: "2025-10-31",
+      method: "Transferencia Bancaria",
+      status: "paid",
+      receipt: "BOL-2025-10-00571",
+    },
+    {
+      id: 2,
       concept: "Arancel - Cuota 2/10",
       amount: 420000,
       date: "2024-09-15",
@@ -26,7 +35,7 @@ export default function Pagos() {
       receipt: "BOL-2024-09-00152",
     },
     {
-      id: 2,
+      id: 3,
       concept: "Arancel - Cuota 1/10",
       amount: 420000,
       date: "2024-08-15",
@@ -35,7 +44,7 @@ export default function Pagos() {
       receipt: "BOL-2024-08-00098",
     },
     {
-      id: 3,
+      id: 4,
       concept: "Matrícula Semestre 2024-1",
       amount: 800000,
       date: "2024-03-10",
@@ -44,7 +53,7 @@ export default function Pagos() {
       receipt: "BOL-2024-03-00045",
     },
     {
-      id: 4,
+      id: 5,
       concept: "Seguro Estudiantil 2024",
       amount: 25000,
       date: "2024-03-10",
@@ -53,7 +62,7 @@ export default function Pagos() {
       receipt: "BOL-2024-03-00046",
     },
     {
-      id: 5,
+      id: 6,
       concept: "Arancel 2023 - Cuota 10/10",
       amount: 420000,
       date: "2023-12-15",

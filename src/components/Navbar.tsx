@@ -24,7 +24,7 @@ export function Navbar() {
             />
             <div>
               <h1 className="text-xl font-bold text-foreground">
-                Portal Estudiantil
+                Portal de Autoservicio
               </h1>
               <p className="text-sm text-muted-foreground">
                 Universidad Técnica Federico Santa María
