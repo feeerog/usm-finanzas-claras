@@ -17,15 +17,6 @@ export default function Pagos() {
   
   const payments = [
     {
-      id: 1,
-      concept: "Beca ayudantia",
-      amount: 92000,
-      date: "2025-10-31",
-      method: "Transferencia Bancaria",
-      status: "paid",
-      receipt: "BOL-2025-10-00571",
-    },
-    {
       id: 2,
       concept: "Arancel - Cuota 2/10",
       amount: 420000,
