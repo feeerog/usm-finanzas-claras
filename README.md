@@ -34,4 +34,5 @@ cd usm-finanzas-claras
 ### 🪜 Paso 3: Instalar las dependencias necesarias
 npm i
 
+### 🪜 Paso 4: Correr servidor en local host
 npm run dev
