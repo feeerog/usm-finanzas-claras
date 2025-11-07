@@ -32,5 +32,5 @@ git clone https://github.com/feeerog/usm-finanzas-claras
 cd usm-finanzas-claras
 
 ### 🪜 Paso 3: Instalar las dependencias necesarias
-npm i
+npm i\\
 npm run dev
